@@ -3,11 +3,18 @@
   padding: 0;
 }
 
-html,
-body {
-  overflow: hidden;
-}
-
 #webgl-canvas {
   outline: none;
+}
+
+
+html, body {
+  margin: 0;
+  height: 10000px; /* Or enough to scroll */
+  scroll-behavior: smooth;
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
 }

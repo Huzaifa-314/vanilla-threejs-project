@@ -9,9 +9,13 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "@theatre/core": "^0.7.2",
+    "@theatre/studio": "^0.7.2",
+    "@types/three": "^0.141.0",
     "three": "^0.142.0",
-    "typescript": "^4.5.4",
-    "@types/three": "^0.141.0"
+    "three-stdlib": "^2.36.0",
+    "typescript": "^4.5.4"
   },
   "devDependencies": {
     "vite": "^2.9.9"
